@@ -10,4 +10,11 @@ public class Menu : MonoBehaviour
     public void QuitBtn(){
         Application.Quit();
     }
+
+    public void HowPlayBtn(){
+        SceneManager.LoadScene(2);
+    }
+    public void BackHowPlayBtn(){
+        SceneManager.LoadScene(0);
+    }
 }
